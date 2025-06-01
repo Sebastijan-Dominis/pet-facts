@@ -1,4 +1,4 @@
-# 🐱 Pet Facts — React + TypeScript Practice App
+# 🐱 Pet Facts — React + TypeScript Practice App 🐶
 
 A small React app that fetches random cat and dog facts from public APIs.
 
