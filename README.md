@@ -1,23 +1,82 @@
-# 🐱 Pet Facts — React + TypeScript Practice App 🐶
+# Pet Facts
 
-A small React app that fetches random cat and dog facts from public APIs.
+A small, focused React + TypeScript app that fetches random cat and dog facts from public APIs. It's a practice project showcasing modern frontend tooling (Vite + React + TypeScript), Tailwind styling, and pragmatic API handling with Axios.
 
-Built to practice:
-- React functional components with hooks (`useState`, `useRef`)
-- TypeScript type safety and narrowing
-- Axios for HTTP requests with cancellation (AbortController)
-- Handling async state: loading, error, success
-- Conditional rendering based on fetch states
+## Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Scripts](#scripts)
+- [API details](#api-details)
+- [Screenshots](#screenshots)
+- [License](#license)
 
 ## Features
 
-- Fetch random cat or dog facts from two different APIs
-- Cancel ongoing requests when a new fetch is triggered
-- Display loading, error, and fact states clearly
-- Typed data with TypeScript for safer code
+- Fetch facts from public APIs (catfact.ninja, dogapi.dog)
+- Cancel ongoing requests when a new request is triggered
+- Loading, error, and success states with clear UI feedback
+- Small, typesafe codebase using TypeScript and React hooks
 
-## How to run
+## Tech Stack
 
-```bash
+- Vite
+- React 19 + TypeScript
+- Tailwind CSS
+- Axios for HTTP requests
+
+## Installation
+
+1. Clone the repository
+
+```powershell
+git clone https://github.com/Sebastijan-Dominis/pet-facts.git
+cd pet-facts
+```
+
+2. Install dependencies
+
+```powershell
 npm install
+```
+
+3. Start the server
+
+```powershell
 npm run dev
+```
+
+4. Open the server URL
+
+- usually `http://localhost:5173`
+
+## Scripts
+
+- `npm run dev` — start dev server
+- `npm run build` — compile TypeScript and build for production
+- `npm run preview` — preview production build
+- `npm run lint` — run ESLint
+
+## API details
+
+- Cat facts: `https://catfact.ninja/fact` — returns `{ fact: string, length: number }`
+- Dog facts: `https://dogapi.dog/api/v2/facts` — returns an array under `data` with `attributes.body`
+
+The app detects the response shape at runtime and maps it into a shared UI-friendly shape.
+
+## Screenshots
+
+![Cat fact](screenshots/pet-facts-1.png)
+
+![Dog fact](screenshots/pet-facts-2.png)
+
+## License
+
+See the `LICENSE` file in the repository.
+
+**Contributing**
+- This is a small practice project but contributions are welcome. Open an issue or submit a pull request with a clear description of the change.
+
+**Contact / Author**
+- Author: repository owner (see repository metadata).
