@@ -11,6 +11,8 @@ A small, focused React + TypeScript app that fetches random cat and dog facts fr
 - [API details](#api-details)
 - [Screenshots](#screenshots)
 - [License](#license)
+- [Contributing](#contributing)
+- [Author & Contact](#author--contact)
 
 ## Features
 
@@ -67,16 +69,19 @@ The app detects the response shape at runtime and maps it into a shared UI-frien
 
 ## Screenshots
 
+#### Cat fact
 ![Cat fact](screenshots/pet-facts-1.png)
 
+### Dog fact
 ![Dog fact](screenshots/pet-facts-2.png)
 
 ## License
 
 See the `LICENSE` file in the repository.
 
-**Contributing**
+## Contributing
 - This is a small practice project but contributions are welcome. Open an issue or submit a pull request with a clear description of the change.
 
-**Contact / Author**
-- Author: repository owner (see repository metadata).
+## Author & Contact
+- Author: Sebastijan Dominis
+- Contact: sebastijan.dominis99@gmail.com
