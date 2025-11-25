@@ -69,10 +69,10 @@ The app detects the response shape at runtime and maps it into a shared UI-frien
 
 ## Screenshots
 
-#### Cat fact
+### Cat fact
 ![Cat fact](screenshots/pet-facts-1.png)
 
-#### Dog fact
+### Dog fact
 ![Dog fact](screenshots/pet-facts-2.png)
 
 ## License
